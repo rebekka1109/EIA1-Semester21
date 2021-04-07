@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/gabriel-rausch/EIA1-Material/master/L03/task_material/images/bg.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:tan;
+ }
+li {
+    display: inline;
+}
+li a:hover:not(.active) {
+    background-color:rosybrown;
+}
+.active {
+    background-color:rosybrown;
+}
+image{
+    width: 800px;
+}
