@@ -6,10 +6,10 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-img{
+.insta{
     opacity: 0.5;
 }
-img:hover{
+.insta:hover{
     opacity: 1;
 }
 ul{
