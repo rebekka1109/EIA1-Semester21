@@ -30,3 +30,6 @@ li a:hover:not(.active) {
 image{
     width: 800px;
 }
+.formtext{
+    background-color:lightgray;
+}
