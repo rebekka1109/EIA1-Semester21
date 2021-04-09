@@ -1,3 +1,55 @@
+<<<<<<< HEAD
+body{
+    background-image: url("https://raw.githubusercontent.com/gabriel-rausch/EIA1-Material/master/L03/task_material/images/bg.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(104, 24, 136);
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header {
+    background-color:rgb(180, 86, 204);
+    height: 150px;
+    border-bottom-right-radius: 800px;
+    border-bottom-left-radius: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+}
+.navigation{
+    position: fixed;
+}
+.insta{
+    opacity: 0.5;
+}
+.insta:hover{
+    opacity: 1;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(104, 24, 136);
+ }
+li {
+    color: white;
+    display: inline;
+}
+li a:hover:not(.active) {
+    background-color:rgb(180, 86, 204)}
+.active {
+    background-color:rgb(180, 86, 204);
+    color:white;
+}
+.inactive{
+    color:white;
+}
+image{
+    width: 800px;
+}
+.formtext{
+    background-color:lightgray;
+=======
 body{
     background-image: url("https://raw.githubusercontent.com/gabriel-rausch/EIA1-Material/master/L03/task_material/images/bg.png");
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -45,4 +97,5 @@ image{
 }
 .formtext{
     background-color:lightgray;
+>>>>>>> 0805f04d12a38aa70a06545e99a2d02ff95c873e
 }
