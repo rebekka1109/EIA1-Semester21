@@ -1,10 +1,19 @@
 body{
     background-image: url("https://raw.githubusercontent.com/gabriel-rausch/EIA1-Material/master/L03/task_material/images/bg.png");
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
+    color:rgb(104, 24, 136);
     width: 800px;
     margin-right: auto;
     margin-left: auto;
+}
+.header {
+    background-color:rgb(180, 86, 204);
+    height: 150px;
+    border-bottom-right-radius: 800px;
+    border-bottom-left-radius: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
 }
 .insta{
     opacity: 0.5;
@@ -16,16 +25,20 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color:tan;
+    background-color:rgb(104, 24, 136);
  }
 li {
+    color: white;
     display: inline;
 }
 li a:hover:not(.active) {
-    background-color:rosybrown;
-}
+    background-color:rgb(180, 86, 204)}
 .active {
-    background-color:rosybrown;
+    background-color:rgb(180, 86, 204);
+    color: white;
+}
+.inactive{
+    color: white;
 }
 image{
     width: 800px;
