@@ -19,7 +19,6 @@ body{
     position: fixed;
 }
 .insta{
-    border-bottom-radius: 200px;
     opacity: 0.5;
 }
 .insta:hover{
