@@ -11,6 +11,7 @@ body{
     height: 150px;
     border-bottom-right-radius: 800px;
     border-bottom-left-radius: 800px;
+    text-align: center;
     margin: auto;
     margin-top: 0;
 }
