@@ -11,8 +11,8 @@ body{
     height: 400px;
     border-bottom-right-radius: 400px;
     border-bottom-left-radius: 400px;
-    margin-bottom: 180px
     position: relative;
+    margin-bottom: 180px;
 }
 .navigation{
     position: fixed;
