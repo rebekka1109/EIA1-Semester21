@@ -13,8 +13,6 @@ body{
     border-bottom-left-radius: 800px;
     text-align: center;
     margin: auto;
-    margin-top: 0;
-    margin-bottom: 400px;
 }
 .navigation{
     position: fixed;
