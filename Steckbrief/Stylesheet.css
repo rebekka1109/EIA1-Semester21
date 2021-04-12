@@ -7,13 +7,14 @@ body{
     margin-left: auto;
 }
 .header {
+    color: white;
     background-color:rgb(180, 86, 204);
-    height: 150px;
-    border-bottom-right-radius: 800px;
-    border-bottom-left-radius: 800px;
+    height: 400px;
+    border-bottom-right-radius: 400px;
+    border-bottom-left-radius: 400px;
     text-align: center;
     margin: auto;
-    margin-top: 0;
+    top: 0;
 }
 .navigation{
     position: fixed;
@@ -26,9 +27,12 @@ body{
 }
 ul{
     list-style-type: none;
+    top: 0;
+    right: 8px;
     margin: 0;
     padding: 0;
     background-color:rgb(104, 24, 136);
+    border-radius: 5px;
  }
 li {
     color: white;
