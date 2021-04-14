@@ -1,0 +1,37 @@
+.background {
+    background-image: url(bg4.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+.wrapper {
+    background-image: url(wrapperbg3.png);
+    width: 600px; height: 400px;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.wrapper .text {
+    padding: 30px;
+    margin-left: 10px;
+}
+.wrapper .text h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+    width: 500px;
+}
+.wrapper .text p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    columns: 3;
+}
+.unten{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    columns: 2;
+}

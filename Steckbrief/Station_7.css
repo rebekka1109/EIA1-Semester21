@@ -1,0 +1,21 @@
+body {
+    background-image: url("bg3.png");
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banderole {
+    position: absolute;
+    left: 900px;
+    top: 480px;
+}
+.video {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block; }
