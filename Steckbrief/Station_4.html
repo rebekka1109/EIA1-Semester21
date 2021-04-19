@@ -7,20 +7,23 @@
     <title>Station 4</title>
     <link rel="stylesheet" href="Station_4.css">
 </head>
-<body>
-    <img class="wrapper" src="wrapperbg2.png">
-    <h1>Formular</h1>
-    <form>
-         Name: <br>
-       <input type="text" placeholder=""> <br>
-       <br> Deine Urlaubsgrüße:<br>
-       <textarea type="text"placeholder=""> </textarea> <br>
-       <div>
-           <p>Wähle:</p>
-     Pizza <input type="radio" id="Pizze" name="do"><label for="Pizza"></label> 
-     Burger <input type="radio" id="Burger"name="do" ><label for="Burger"></label>
-     <br><br>
-     <input type="submit" name="Submit">
-     </div>
+<body class="background">
+    <div class="wrapper">
+        <div class="text">
+            <h1>Formular</h1>
+        </div>
+        <form class="form" action="#">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="comment">Deine Urlaubsgrüße:</label><br>
+            <textarea name="comment" id="comment" cols="50" rows="5" required></textarea><br>
+            <label for="recommend">Wähle:</label><br>
+            <input type="radio" name="recommend" id="yes" value="yes" required>
+            <label for="yes">Pizza</label>
+            <input type="radio" name="recommend" id="no" value="no" required>
+            <label for="no">Burger</label><br>
+            <input type="submit" value="Senden">
+        </form>
+    </div>
 </body>
 </html>

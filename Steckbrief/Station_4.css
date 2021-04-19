@@ -1,26 +1,57 @@
-body{
+.background {
     background-image: url(bg3.png);
+    background-repeat: repeat;
+    background-size: auto;
 }
 .wrapper {
+    background-image: url(wrapperbg2.png);
+    width: 600px; height: 400px;
     position: absolute;
-    top: 50%;
-    left:50%;
+    top: 47%;
+    left: 50%;
     transform: translate(-50%, -50%);
+  }
+.wrapper .text {
+    position:absolute;
+    top: 5%;
+    left:5%;
 }
-h1 {
-    font-style: italic;
+.wrapper .text h1 {
     color: white;
-    font-family: initial;
-    top: 27%;
-    right: 57%;
-    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    position:absolute;
+    text-align: center;
 }
-form { 
+.wrapper .form {
     position: absolute;
-   padding: 260px 590px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    font-style: arial;
-    font-size: 20px;
-    top:5%
+    top: 36%;
+    left: 20%;
+    transform: translate(-20%,-20%);
+}
+.wrapper .form textarea {
+    resize: none;
+}
+.wrapper .form label {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.wrapper .form input, .wrapper .form textarea {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+input[type=submit] {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    transition-duration: 0.4s;
+}
+input[type=submit]:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
 }

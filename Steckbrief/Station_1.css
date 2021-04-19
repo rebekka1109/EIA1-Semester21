@@ -1,46 +1,38 @@
-body {
+.background {
     background-image: url(bg1.png);
+    background-repeat: repeat;
+    background-size: auto;
 }
-img {
+.wrapper {
+    background-image: url(wrapperbg.png);
+    width: 600px; height: 400px;
     position: absolute;
-    top: 50%;
-    left:50%;
+    top: 47%;
+    left: 50%;
     transform: translate(-50%, -50%);
+  }
+.wrapper .text {
+    position:absolute;
+    top: 5%;
+    left: 5%;
 }
-.shell {
+.wrapper .text h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.wrapper .text p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.shells {
     position: absolute;
-    top: 70%;
-    left: 34%;
+    bottom: -30px;
+    left: -30px;
 }
 .penguin {
-    position:absolute;
-    right: 33%;
-    top: 63%;
-}
-h1 {
-    font-style: italic;
-    color: white;
-    font-family: initial;
-    font-size: 30px;
     position: absolute;
-    top: 30%;
-    right: 34%;
-}
-p {
-    font-size: 20px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 40%;
-    left: 37%;
-}
-.main {
-    font-size: 20px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 45%;
-    left: 31%;
-    margin-left: 100px;
-    margin-right: 600px;
+    bottom: -30px;
+    right: -30px;
 }
