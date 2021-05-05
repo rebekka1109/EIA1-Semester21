@@ -66,7 +66,6 @@ document.querySelector("#playbutton").addEventListener("click", function () {
 function definedBeat() {
   beat[0].play();
   beat[1].play();
-  beat[2].play();
   
   myIntervall = setInterval(definedBeat, 500);
 }
