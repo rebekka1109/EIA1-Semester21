@@ -3,7 +3,7 @@ function playSample(sounds: string) {
   sound.play();
 }
 
-var beats: string[] = ["kick.mp3","kick.mp3","snare.mp3","kick.mp3","kick.mp3", "hihat.mp3"];
+var beats: string[] = ["kick.mp3","kick.mp3","snare.mp3","kick.mp3", "hihat.mp3"];
 
 var index: number = 0;
 
