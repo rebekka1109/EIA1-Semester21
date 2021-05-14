@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    background: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .drumpad {
+    margin-top: 7%;
+    display: flex;
+    width: 500px;
+    height: 550px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .drumbutton {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+  }
+  .drumbutton:hover {
+    cursor: pointer;
+  }
+  
+  #drum1 {
+    background-color: rgb(12, 235, 12);
+  }
+  #drum1:hover {
+    background-color: rgb(12, 175, 12)
+  }
+  
+  #drum2 {
+    background-color: rgb(12, 126, 12);
+  }
+  #drum2:hover {
+    background-color:rgb(12, 95, 12);
+  }
+  
+  #drum3 {
+    background-color: rgb(12, 83, 12);
+  }
+  #drum3:hover {
+    background-color: rgb(12, 59, 12);
+  }
+  
+  #drum4 {
+    background-color:rgb(23, 235, 213);
+  }
+  #drum4:hover {
+    background-color: rgb(23, 170, 155);
+  }
+  
+  #drum5 {
+    background-color: rgb(75, 75, 221);
+  }
+  #drum5:hover {
+    background-color: rgb(75, 75, 151);
+  }
+  
+  #drum6 {
+    background-color: rgb(17, 17, 136);
+  }
+  #drum6:hover {
+    background-color: rgb(17, 17, 90);
+  }
+  
+  #drum7 {
+    background-color:rgb(238, 25, 238);
+  }
+  #drum7:hover {
+    background-color: rgb(170, 25, 170);
+  }
+  
+  #drum8 {
+    background-color: rgb(141, 25, 141);
+  }
+  #drum8:hover {
+    background-color: rgb(99, 25, 99);
+  }
+  
+  #drum9 {
+    background-color: rgb(54, 3, 54);
+  }
+  #drum9:hover {
+    background-color: rgb(26, 2, 26);
+  }
+
+  i {
+    color: white;
+    font-size: 40px;
+    margin-left: 5%;
+}
+i:hover {
+    color: #ff6666;
+    cursor: pointer; 
+}
+
+.isHidden {
+  display: none !important;
+}
+
+#recordred {
+  color: red;
+}
