@@ -1,0 +1,86 @@
+body {
+    background-color:lightgray;
+    height: 100%;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {
+    color: darkgray;
+    text-align: center;
+}
+#counter {
+    font-size: 24px;
+}
+#new-task {
+    margin-left: 23%;
+    width: 53.5%;
+    height: 50px;
+    font-size: 23px;
+    background-color: white;
+    color: darkgray;
+}
+::placeholder{
+    color: darkgray;
+    opacity: 1;
+}
+#new-task:focus {
+    border-color: darkgray;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgba(230, 230, 230, 0.5);
+}
+#counter {
+    font-size: 23px;
+}
+
+div{
+    position: relative;
+    width: 54%;
+    height: 70px;
+    background-color: white;
+    margin: 0 auto 3px auto;
+    color: black;
+}
+.task-text {
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 22px;
+    font-size: 23px;
+}
+.isHidden {
+    display: none !important;
+}
+.fa-circle{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: darkviolet;
+}
+.fa-circle:hover {
+    cursor: pointer;
+}
+.fa-check-circle{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: darkviolet;
+}
+.fa-check-circle:hover {
+    cursor: pointer;
+}
+.fa-trash-alt{
+    position: absolute;
+    margin-top: 20px;
+    left: 95%;
+    opacity: 50%;
+    font-size: 30px;
+    color: darkviolet;
+    transition: all 0.4s ease-out;
+}
+.fa-trash-alt:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
