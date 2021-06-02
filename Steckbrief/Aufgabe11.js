@@ -39,11 +39,11 @@ window.addEventListener("click", function () {
             });
             drawListToDOM();
             console.log("Folgende Aufgabe wird der Liste hinzugefügt: " + wildcard);
-            artyom.say("Deine Aufgabe" + wildcard + " wurde der Liste hinzugefügt.");
+            artyom.say("Die Aufgabe" + wildcard + " wurde deiner Liste hinzugefügt.");
         }
     });
     document.querySelector("#voiceControl").addEventListener("click", function () {
-        artyom.say("Welche Aufgabe soll ich der Liste hinzufügen?");
+        artyom.say("Welche Aufgabe soll ich zur Liste hinzufügen?");
         startContinuousArtyom();
     });
 });
