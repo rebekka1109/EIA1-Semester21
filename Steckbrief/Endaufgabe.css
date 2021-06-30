@@ -1,0 +1,119 @@
+html, body {
+  min-height: 100vh;
+  text-align: center;
+}
+body {
+  display: flex;
+  flex-direction:column;
+  background: radial-gradient(circle, #fefeff 15%, lightgreen 100%);
+}
+header {
+ color:rgb(106, 182, 106);
+ font-size: 40px;
+ position: absolute;
+ top: 15%;
+ left: 45%;
+}
+main {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+#info {
+  background-color: lightgreen;
+  width: fit-content;
+  padding: 30px;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 0.05em;
+  margin: auto;
+  color: white;
+}
+#info p, #info span {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  color: white;
+  font-size: 45px;
+  font-family:'Times New Roman', Times, serif;
+}
+h2 {
+  font-size: 28px;
+}
+button {
+  margin: 10px;
+  margin-bottom: 25px;
+  padding: 0.9em 1.3em;
+  border: 1px solid lightgreen;
+  background-color: white;
+  color: lightgreen;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+button:hover {
+  background-color: rgb(76, 148, 76);
+  color: white;
+  border-color: white;
+}
+#back {
+  cursor: pointer;
+  position: absolute;
+  font-size: 18px !important;
+  bottom: 23px;
+}
+#back:hover {
+  color: rgb(76, 148, 76);
+}
+#progressBar {
+  margin-top: 10px;
+  background: linear-gradient(90deg,  white 100%);
+  width: 100%;
+  height: 10px;
+  border: 1px solid white;
+  transition-duration: 0.4;
+}
+#field {
+  margin: auto;
+  margin-top: 20px;
+  line-height: 0;
+  background-color: white;
+  border: 3px solid rgb(76, 148, 76);
+}
+#field div {
+  border: 1px solid rgb(76, 148, 76);
+  float: left;
+}
+.fas, .far {
+  font-size: 65px;
+  margin: 0;
+  padding: 0;
+}
+#info .fas, #info .far {
+  font-size: inherit;
+}
+.fas {
+  color: blue;
+}
+.far {
+  color: red;
+}
+footer {
+  margin-top: auto;
+  height: 150px;
+  color: rgb(106, 182, 106);
+}
+footer p {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  position: relative;
+  top: 65px;
+  margin: 20px;
+  display: inline;
+}
+
